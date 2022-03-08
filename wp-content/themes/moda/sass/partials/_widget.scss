@@ -1,0 +1,195 @@
+#sidebar{
+}
+
+@media screen and (max-width: 48em) {
+	.widget-area{
+	}
+	.widget-area-inner{
+	}
+}
+
+.widget-area p, .widget-area li{
+	line-height: 1.5;
+	font-size: 1.4rem;
+}
+
+.widget-area .widget{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 3.6rem;
+	padding: 0 0 0 2.4rem;
+	line-height: 1.5;
+	font-size: 1.5rem;
+}
+
+.widget-area .widget .widget-inner{
+	float: left;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	padding: 1.8rem 2.4rem;
+}
+
+/* List Widgets */
+
+.widget-area .widget.list-widget ul{
+	width: 100%;
+	margin-top: 2.4rem;
+	padding-left: 0;
+}
+
+.widget-area .widget.list-widget ul li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0 0 0.6rem;
+	padding: 0.6rem 0;
+}
+
+.widget-area .widget.list-widget ul li:last-child{
+	margin: 0;
+}
+
+.widget-area .widget.list-widget ul li:before{
+	float: left;
+	width: 7%;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	margin: 0;
+	content: "\f105";
+	color: $primary_button;
+}
+
+.widget-area .widget.list-widget ul li a{
+	display: inline-block;
+	float: left;
+	width: 93%;
+	font-weight: normal;
+	color: $primary_text;
+  	&:visited{
+  	color: $primary_text;
+  	}
+  	&:hover, &:focus, &:active{
+  	color: $primary_link;
+  	text-decoration: none;
+  	outline: 0;
+  	}
+}
+
+.widget-area .widget.list-widget ul ul.children{
+	float: left;
+	width: 100%;
+	margin: 0.6rem 0;
+	padding-left: 0;
+}
+
+.widget-area .widget.list-widget ul ul.children li{
+	padding-left: 2rem;
+}
+
+
+/* Feature Widgets */
+
+.widget-area .feature-widget.widget{
+	padding: 0 0 0 2rem;
+	background: $light_bg;
+}
+
+.widget-area .feature-widget.widget h3{
+	color: $primary_link;
+}
+
+.widget p.has-more-button{
+	margin-bottom: 1.2rem;
+}
+
+.widget-area .featured-page-widget.widget.alternate-color .widget-inner{
+	background: #000;
+	color: #fff;
+}
+
+.widget-area .featured-page-widget.widget.alternate-color .widget-inner h3,
+.widget-area .featured-page-widget.widget.alternate-color .widget-inner h3 a{
+	color: #fff;
+}
+
+
+/* Share Widget */
+
+.widget-area .widget ul.share-buttons{
+	margin: 0;
+	padding-left: 0;
+}
+
+.widget-area .widget ul.share-buttons li{
+	display: inline-block;
+	margin: 0 0.6rem 0 0;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* Tweets Widget */
+
+.widget-area .widget ul.tweet-list{
+	margin: 0;
+	padding-left: 0;
+}
+
+
+/* Signup Widget */
+
+.widget-area .widget.signup-widget form input{
+	width: 100%;
+}
+
+
+/* Search Widget */
+
+.widget-area .widget.sidebar-search-widget .search-form-input-container.col-sm-18{
+	width: 100%;
+}
+
+.widget-area .widget.sidebar-search-widget .search-form-input-container i{
+	display: none;
+}
+
+.widget-area .widget.sidebar-search-widget .search-form-input-container input{
+	width: calc( 100% - 26px );
+	margin-bottom: 2rem;
+	right: 0;
+}
+
+.widget-area .widget.sidebar-search-widget .search-form-submit-container.col-sm-6{
+	width: 100%;
+}
+
+.widget-area .widget.sidebar-search-widget .search-form-submit-container button{
+	float: left;
+	width: 100%;
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.widget-area .widget,
+	.widget-area .feature-widget.widget{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+

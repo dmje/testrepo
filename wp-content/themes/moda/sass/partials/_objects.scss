@@ -1,0 +1,254 @@
+// Header
+.object__header {
+    background: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.object__title {
+    margin: 0 0 0.4em;
+}
+
+.object__type {
+    margin: 0;
+}
+
+// Structure
+.object__content-wrap {
+    margin-top: 3rem;
+}
+
+.object__gallery {
+    background: #fff;
+}
+
+.object__sidebar {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (min-width : 880px) {
+    .object__content-wrap {
+        display: flex;
+    }
+
+    .object__gallery {
+        width: calc(65% - 3rem);
+        margin-right: 3rem;
+    }
+
+    .object__sidebar {
+        margin-top: 0;
+        width: 35%;
+        padding: 4rem;
+    }
+}
+
+
+// Gallery
+.object__gallery-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.object__gallery-image {
+    margin-top: 4rem;
+
+    img {
+        margin: 0 auto;
+    }
+}
+
+.object__gallery-thumbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+
+    a {
+        margin: 0 1rem;
+        opacity: 0.7;
+        transition: opacity 0.2s ease-in;
+    }
+
+    a:hover {
+        opacity: 1;
+    }
+}
+
+
+/*
+<div class="object__gallery">
+
+    <div class="object__gallery-image">
+
+        <a href="<?php echo str_replace('_thumb', '_web', $primaryImage); ?>" class="swipebox" title="<?php echo $object_title; ?>">
+            <img src="<?php echo str_replace('_thumb', '_web', $primaryImage); ?>">
+        </a>
+
+    </div>
+
+    <div class="object__gallery-thumbs">
+        <?php foreach($galleryImages as $galleryImage): ?>
+            <a href="<?php echo str_replace('_thumb', '_web', $galleryImage); ?>" class="swipebox" title="<?php echo $object_title; ?>">
+                <img src="<?php echo $galleryImage; ?>">
+            </a>
+        <?php endforeach; ?>
+    </div>
+
+</div>
+*/
+
+// Sidebar
+.object__sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.object__sidebar a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.object__info-title {
+    color: #ccc;
+    margin: 0 0 0.2em;
+    font-size: 1.2em;
+}
+
+.object__sidebar .share-buttons {
+    list-style: none;
+    margin: 0;
+    margin-top: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.object__accordion {
+    margin-bottom: 4em;
+}
+
+.object__accordion-header {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.object__accordion-arrow {
+    display: block;
+    height: 8px;
+    width: 14px;
+    background: url('images/arrow-down.svg');
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    transform: rotate(0deg);
+}
+
+.is-active .object__accordion-arrow {
+    transform: rotate(180deg);
+}
+
+.object__reveal {
+    display: none;
+}
+
+.object__cite-wrapper {
+    margin-top: 2rem;
+}
+
+.object__cite {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+input[type="text"].object__cite-input {
+    border: 0;
+    margin: 0;
+    flex: 1;
+    padding: 1rem;
+    background: #e9e9e9;
+
+    &:focus {
+        background: #fff;
+    }
+}
+
+.object__cite-btn {
+    background-color: white;
+    margin-left: 5px;
+    border: 0;
+    width: 40px;
+
+    img {
+        max-height: 15px;
+        max-width: 15px;
+    }
+}
+
+
+// Related
+.related-objects {
+    background: #fff;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.related-objects-list {
+    margin: 0;
+    padding: 0;
+}
+
+.related-objects-list__item {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.related-objects-list__link {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.related-objects-list__link:hover {
+    background: #f1f5f6;
+}
+
+.related-objects-list__img {
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (min-width : 880px) {
+    .related-objects-list {
+        display: flex;
+    }
+
+    .related-objects-list__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .related-objects-list__link {
+        display: block;
+        padding: 20px;
+    }
+}
+
+
+
+
+// Objects
+.object-comments {
+    background: #fff;
+    margin-top: 3rem;
+    padding: 3rem;
+}

@@ -1,0 +1,183 @@
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="search"],
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+	margin-bottom: 2rem;
+	border: 1px solid $border_color;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: $sans_font;
+	width: 100%;
+	height: auto;
+	padding: 1.5rem 1.2rem 1.4rem;
+	box-shadow: none;
+	background: lighten($light_bg, 15%);
+	color: $primary_text;
+ }
+ 
+/* Removes awwkard default styles on some inputs */
+input[type="email"],
+input[type="search"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+textarea {
+	min-height: 10rem;
+	max-width: 96%;
+	padding-top: 6px;
+	padding-bottom: 6px; 
+	font-family: $sans_font;
+}
+
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+	border: 1px solid $primary_link;
+	outline: 0; 
+}
+
+label,
+legend {
+	display: block;
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin-bottom: .5rem; 
+}
+
+fieldset {
+	border-width: 0;
+	padding: 0; 
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	display: inline; 
+}
+
+label > .label-body {
+	display: inline-block;
+	font-weight: normal;
+	margin-left: .5rem; 
+}
+
+article form{
+	display: block;
+}
+
+/* stop rounding on iOS */
+
+.searchform input{
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+/* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-weight: normal;
+  font-family: $sans_font;
+  color: $primary_text;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-weight: normal;
+  font-family: $sans_font;
+  color: $primary_text;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-weight: normal;
+  font-family: $sans_font;
+  color: $primary_text;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-weight: normal;
+  font-family: $sans_font;
+  color: $primary_text;
+}
+
+/* Search form https://codepen.io/dodozhang21/pen/xeBzu */
+
+.wp-search{
+  width: 100%; 
+  position: relative;
+  font-size: 1.4rem;
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-family: 'FontAwesome';
+    content: '\f002';
+    background: $light_bg;
+    text-align: center;
+    color: lighten($primary_text, 15%);
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smooth: always;
+  }
+}
+
+input.searchTerm{
+	width: 100%;
+	background: $light_bg;
+	border-bottom: 3px solid $light_bg;
+	padding: 4px 8px;
+	height: 32px;
+	outline: none;
+	border: none;
+}
+
+input.searchButton{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+@media only screen and (min-width : 1190px) {
+
+	header .wp-search{
+		margin-top: -32px;
+		margin-bottom: 24px;
+	}
+}
+
+
+/* Footer Signup Block */
+
+.signup-textfield{
+	float: left;
+	width: calc( 70% - 6px );
+	margin-right: 6px;
+}
+
+.signup-button{
+	float: left;
+	width: 30%;
+}
+
+.signup-textfield input,
+.signup-button input{
+	height: 44px;
+}
+
+
+/* Gravity Forms */
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label{
+	margin-top: -10px !important;
+}

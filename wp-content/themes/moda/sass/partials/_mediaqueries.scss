@@ -1,0 +1,99 @@
+/* #Media Queries
+================================================== */
+
+/* Stuff that also happens when meanmenu kicks in */
+
+@media only screen
+and (max-width : 675px){
+
+	header{
+		clear: both;
+		padding-top: 0;
+		background-image: none;
+	}
+	
+	.page-content-inner{
+		padding-right: 0;
+	}
+	
+	#sidebar{
+		margin-top: 3rem;
+	}
+	
+	footer ul.social-links{
+		float: left;
+		width: 100%;
+		margin-bottom: 2rem;
+		text-align: left;
+	}
+	
+	footer ul.social-links li{
+		float: left;
+		margin: 0 2rem 2rem 0;
+	}
+	
+	.signup-form-inner{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.signup-textfield{
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.signup-button{
+		clear: both;
+		width: 100%;
+	}
+	
+}
+
+
+/* everything up to iPad portrait ----------- */
+@media only screen
+and (max-width : 767px){
+	
+	#site-logo{
+		display: inline-block;
+		margin-top: 2.4rem;
+		margin-bottom: 1.2rem;
+		text-align: center;
+	}
+	
+	#site-logo img {
+	    float: none;
+	}
+	
+	header{
+		text-align: center;
+	}
+	
+	#header-search{
+		margin-bottom: 2.4rem;
+	}
+	
+	.index-list .post-content{
+		margin-top: 4rem;
+	}
+	
+	.footer-block{
+		clear: both;
+		width: 100%;
+		margin-bottom: 4.8rem;
+	}
+
+	#footer-social h3 {
+		padding-top: 2em;
+	}
+	
+	footer ul.social-links{
+		margin: 0;
+	}
+	
+	footer nav ul{
+		margin-top: 0;
+		margin-bottom: 2.4rem;
+	}
+
+}

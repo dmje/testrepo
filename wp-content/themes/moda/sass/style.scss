@@ -1,0 +1,45 @@
+/*!
+ Theme Name: MoDA
+ Theme URI: http://thirty8.co.uk
+ Description: MoDA WordPress theme
+ Author: Thirty8 Digital
+ Author URI: http://.thirty8.co.uk
+*/
+
+@import "partials/variables";
+@import "partials/reset_bootstrap_grid";
+
+@import "partials/typography";
+@import "partials/media";
+
+@import "partials/forms"; 
+@import "partials/links_buttons";
+@import "partials/tables";
+
+@import "partials/branding";
+
+@import "partials/primary_nav";
+
+@import "partials/archive";
+
+@import "partials/single";
+
+@import "partials/modules";
+
+@import "partials/widget";
+
+@import "partials/footer";
+
+@import "partials/comments";
+
+@import "partials/site-specific";
+
+@import "partials/objects";
+
+@import "partials/rslides";
+@import "partials/meanmenu";
+
+@import "partials/swipebox";
+
+@import "partials/mediaqueries";  
+@import "partials/print";  

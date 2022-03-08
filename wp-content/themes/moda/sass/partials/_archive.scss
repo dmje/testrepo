@@ -1,0 +1,201 @@
+/* Archives */
+
+h2.archive-description{
+	margin-bottom: 4.8rem;
+	line-height: 1.25;
+	font-family: "Dax W01 Medium";
+	font-size: 2rem;
+}
+
+h2.archive-description:before{
+	display: block;
+    content: "";
+    width: 36px;
+    height: 2px;
+    margin-bottom: 1.8rem;
+    background: $primary_text;
+}
+
+p.archive-description{
+	margin-bottom: 4.8rem;
+	line-height: 1.25;
+	font-size: 1.6rem;
+}
+
+p.archive-description:before{
+	display: block;
+    content: "";
+    width: 36px;
+    height: 2px;
+    margin-bottom: 3.6rem;
+    background: $primary_text;
+}
+
+
+/* Listing Archives */
+
+.index-listing h1{
+	margin-bottom: 3rem;
+}
+
+.index-listing article{
+	float: left;
+	width: 100%;
+	margin-bottom: 6rem;
+}
+
+.index-listing article h2{
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+	font-size: 2rem;
+}
+
+.index-listing article h2 a{
+	text-decoration: none;
+	color: $primary_text;
+	&:hover, &:focus, &:active{
+		color: $moda_red;
+	}
+}
+
+.index-listing article .snippet p.snippet-read-more{
+	margin-bottom: 0;
+}
+
+.index-listing article .snippet p.snippet-read-more a:hover{
+	text-decoration: none;
+}
+
+.index-listing article .snippet p.snippet-read-more i{
+	margin-left: 6px;
+}
+
+
+/* Object Archives */
+
+body.post-type-archive-object #main-content{
+	background: #fff;
+}
+
+.grid-toggle{
+	float: right;
+}
+
+.grid-toggle li{
+	display: inline;
+	margin: 0 1rem;
+}
+
+.grid-toggle li a svg{
+	fill: #afafaf;
+	&:hover{
+		fill: $primary_text;
+	}
+}
+
+.grid-toggle li a.grid-toggle-two{
+	position: relative;
+	top: 1px;
+}
+
+.clearfix-toggle{
+	display: none;
+}
+
+.clearfix-toggle.clearfix-displayed{
+	display: block;
+}
+
+.grid-object{
+	float: left;
+	display: block;
+	margin-bottom: 2.4rem;
+}
+
+.clearfix-displayed{
+	float: left;
+	width: 100%;
+	height: 40px;
+}
+
+.grid-object-inner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2.4rem;
+	&:hover{
+		background: $light_bg;	
+	}
+}
+
+.grid-object-inner img{
+	height: auto;
+	/* grim ie11 thing https://stackoverflow.com/questions/41489798/keep-image-ratio-using-max-width-and-max-height-in-ie-11 */
+	flex: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Pagination */
+
+div.pagination{
+	float: left;
+	width: 100%;
+	padding-bottom: 6rem;
+	text-align: center;
+}
+
+body.search div.pagination{
+	margin-top: 2.4rem;
+}
+
+body.post-type-archive-object .pagination{
+	margin-top: 3.6rem;
+	padding-bottom: 3.6rem;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	display: inline-block;
+	padding: 1.2rem 1.5rem;
+	line-height: 1.5rem;
+	text-decoration: none;
+	font-size: 1.4rem;
+	background: #fff;
+	color: $primary_text;
+	border: 1px solid $primary_text;
+}
+
+.wp-pagenavi span.current {
+	background: $primary_text;
+	color: #fff;
+}
+
+.wp-pagenavi a:hover{
+	background: $moda_red;
+	color: #fff;
+	border: 1px solid $moda_red;
+}
+
+.wp-pagenavi a i{
+	margin-top: -3px;
+	position: relative;
+	top: 1px;
+}
+
+
+/* Search */
+
+body.search-no-results #main-content form{
+	width: 50%;
+	margin: 0 auto;
+	border: none;
+}
+
+@media only screen and (max-width : 767px){
+
+	body.search-no-results #main-content form{
+		width: 100%;
+	}
+	
+}

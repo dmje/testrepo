@@ -1,0 +1,264 @@
+    @font-face{
+        font-family:"Dax W01 Regular";
+        src:url("fonts/ece88577-b8b8-43cf-a4b2-cee1bf0640b7.eot?#iefix");
+        src:url("fonts/ece88577-b8b8-43cf-a4b2-cee1bf0640b7.eot?#iefix") format("eot"),url("fonts/c945938b-c6f1-45ce-81b4-27cdab6611c5.woff2") format("woff2"),url("fonts/d050c6b0-688c-4ffa-a322-80eee7ecdbd1.woff") format("woff"),url("fonts/e300767a-3d9e-49db-ae5c-ad1e0609e480.ttf") format("truetype"),url("fonts/f533832f-a48d-4ed8-815e-f84d8627af32.svg#f533832f-a48d-4ed8-815e-f84d8627af32") format("svg");
+    }
+    @font-face{
+        font-family:"Dax W01 Medium";
+        src:url("fonts/5323bc39-8987-47cd-8f94-4402b78570a1.eot?#iefix");
+        src:url("fonts/5323bc39-8987-47cd-8f94-4402b78570a1.eot?#iefix") format("eot"),url("fonts/4c02235c-5b87-4303-ad70-89daa8187ef1.woff2") format("woff2"),url("fonts/b6096034-911a-4987-80e2-102c62f58fb2.woff") format("woff"),url("fonts/7926c9b3-d774-429b-a204-2ef9f5a1e178.ttf") format("truetype"),url("fonts/52f6974e-9eec-4eb8-8372-8b1579b5816d.svg#52f6974e-9eec-4eb8-8372-8b1579b5816d") format("svg");
+    }
+    @font-face{
+        font-family:"Dax W01 Bold";
+        src:url("fonts/85405ba1-43c8-4a3a-8428-22b1f50de09f.eot?#iefix");
+        src:url("fonts/85405ba1-43c8-4a3a-8428-22b1f50de09f.eot?#iefix") format("eot"),url("fonts/cdf95fd0-9d1f-4daa-82ea-b25dbd236444.woff2") format("woff2"),url("fonts/a7bdb1d5-35e0-4e9a-a581-75a95390fdf6.woff") format("woff"),url("fonts/0e2c4516-abd0-40b6-b075-f67bc7b1f0b7.ttf") format("truetype"),url("fonts/ae6891a8-3217-48c4-88a1-08ebcf8ff27f.svg#ae6891a8-3217-48c4-88a1-08ebcf8ff27f") format("svg");
+    }
+    
+html {
+	font-size: 62.5%; 
+}
+
+body {
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight: normal;
+	font-family: $sans_font;
+	background: $primary_background;
+	color: $primary_text; 
+	-webkit-font-smoothing: antialiased;
+}
+
+/* #Typography
+================================================== */
+
+h1,h2,h3,h4,h5,h6{ 
+	margin: 0 0 2.4rem;
+	line-height: 1.2em;
+	font-family: $bold_font;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 36px;
+	font-size: 3.6rem;
+}
+
+h2{
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h3{
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+h4{
+	font-size: 18px;
+	font-size: 1.8rem; 
+}
+
+h5, h6{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+h1.utility-page-title:after{
+    display: block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    margin: 2.4rem auto 6rem;
+    background: $primary_text;	
+}
+
+h2.page-intro{
+	margin-bottom: 2.4rem;
+	line-height: 1.25;
+	font-family: $regular_font;
+	font-size: 20px;
+	font-size: 2rem;
+	color: $primary_text;
+}
+
+h2.page-intro:before{
+	display: block;
+	content: "";
+	width: 36px;
+	height: 2px;
+	margin-top: -6px;
+	margin-bottom: 2.4rem;
+	background: #000;
+}
+
+p{
+	margin: 0 0 2.4rem 0; 
+}
+
+p img{
+	margin: 0; 
+}
+
+p.more-link a.button{
+	float: left;
+}
+
+em{
+	font-style: italic; 
+}
+
+strong{ 
+	font-weight: bold; 
+}
+
+small{
+	font-size: 80%; 
+}
+
+hr{
+	clear: both; 
+	border: solid $border_color; 
+	border-width: 1px 0 0;
+	margin: 1rem 0 2rem; 
+	height: 0; 
+}
+
+.center{ 
+	text-align: center; 
+}
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+
+/* #Lists
+================================================== */
+
+ul, ol{
+	margin: 0 0 2rem; 
+}
+
+ul{ 
+	list-style: none; 
+}
+
+article ul{ 
+	list-style: disc outside; 
+}
+
+
+ol{
+	list-style: decimal; 
+}
+
+ul ul, ul ol,
+ol ol, ol ul{ 
+	margin: 0.5em 0 0.5em 2em;  
+}
+
+ul ul li, ul ol li,
+ol ol li, ol ul li{
+	margin-bottom: 0.5em; 
+}
+
+li{
+	line-height: 1.4em; 
+	margin-bottom: 1.4rem; 
+}
+
+li p{
+	line-height: 1.5em; 
+}
+
+
+/* #Other Typography
+================================================== */
+
+address{
+	margin-bottom: 2rem;
+}
+
+blockquote{
+	margin-bottom: 2rem;
+}
+
+blockquote p{
+	line-height: 1.3em;
+	font-size: 1.5rem;
+	color: #888;
+}
+
+blockquote.shortcode-pullquote:before{
+	display: block;
+	content: "";
+	width: 50%;
+	padding-bottom: 2.4rem;
+	border-top: 2px solid $moda_red;
+}
+
+blockquote.shortcode-pullquote{
+  width: 33%;
+  padding: 1rem 0;
+  line-height: 1.25;
+  font: normal 2.4rem "Dax W01 Bold", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $primary_text;
+  border: none;
+}
+
+blockquote.shortcode-pullquote.right{
+	float: right;
+}
+
+blockquote.shortcode-pullquote.left{
+	float: left;
+}
+
+pre, code{
+	margin: 0 0 1rem; 
+	padding: 0.5rem; 
+	font-weight: bold; 
+	background: #ddd; 
+	color: #333; 
+	font-family: Courier, monospace; overflow: scroll;
+}
+
+dl{
+}
+
+dt{
+	font-weight: bold;
+}
+
+dd{
+	margin-bottom: 1rem;
+	margin-left: 0;
+}
+
+sup, sub{
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+
+sub{ 
+	top: 0.4em; 
+}

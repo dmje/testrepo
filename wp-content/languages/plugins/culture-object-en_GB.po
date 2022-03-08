@@ -1,0 +1,702 @@
+# Translation of Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-21 10:35:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: CultureObject/CultureObject.class.php:42
+msgid "Plugin Activation Error"
+msgstr "Plugin Activation Error"
+
+#. Translators: 1: Either WordPress or PHP, depending on the version mismatch
+#. 2: Required version number
+#: CultureObject/CultureObject.class.php:45
+msgid "Culture Object requires %1$s version %2$s or greater."
+msgstr "Culture Object requires %1$s version %2$s or greater."
+
+#. Translators: %s: is the name of the provider.
+#: CultureObject/CultureObject.class.php:70
+msgid "Culture Object provider (%s) does not support automated sync."
+msgstr "Culture Object provider (%s) does not support automated sync."
+
+#: CultureObject/CultureObject.class.php:77
+#: CultureObject/CultureObject.class.php:113
+msgid "A sync exception occurred during sync"
+msgstr "A sync exception occurred during sync"
+
+#: CultureObject/CultureObject.class.php:80
+#: CultureObject/CultureObject.class.php:120
+msgid "An unknown exception occurred during sync"
+msgstr "An unknown exception occurred during sync"
+
+#. Translators: %s: is the name of the provider.
+#: CultureObject/CultureObject.class.php:102
+msgid "Culture Object provider (%s) does not support AJAX sync."
+msgstr "Culture Object provider (%s) does not support AJAX sync."
+
+#: CultureObject/CultureObject.class.php:130
+#: CultureObject/CultureObject.class.php:138
+msgid "Security Violation"
+msgstr "Security Violation"
+
+#: CultureObject/CultureObject.class.php:139
+msgid "Invalid Sync Key"
+msgstr "Invalid Sync Key"
+
+#: CultureObject/CultureObject.class.php:149
+#: CultureObject/CultureObject.class.php:150
+msgid "An unknown error occurred during AJAX sync"
+msgstr "An unknown error occurred during AJAX sync"
+
+#: CultureObject/CultureObject.class.php:161
+msgid "Deleted all COS objects."
+msgstr "Deleted all COS objects."
+
+#: CultureObject/CultureObject.class.php:169
+msgid "Objects"
+msgstr "Objects"
+
+#: CultureObject/CultureObject.class.php:170
+msgid "Object"
+msgstr "Object"
+
+#: CultureObject/CultureObject.class.php:171
+msgid "Add new object"
+msgstr "Add new object"
+
+#: CultureObject/CultureObject.class.php:172
+msgid "Edit object"
+msgstr "Edit object"
+
+#: CultureObject/CultureObject.class.php:173
+msgid "New object"
+msgstr "New object"
+
+#: CultureObject/CultureObject.class.php:174
+#: CultureObject/CultureObject.class.php:196
+#: CultureObject/CultureObject.class.php:201
+msgid "View object"
+msgstr "View object"
+
+#: CultureObject/CultureObject.class.php:175
+msgid "Search objects"
+msgstr "Search objects"
+
+#: CultureObject/CultureObject.class.php:176
+msgid "No objects found"
+msgstr "No objects found"
+
+#: CultureObject/CultureObject.class.php:177
+msgid "No objects found in the trash"
+msgstr "No objects found in the bin"
+
+#: CultureObject/CultureObject.class.php:196
+#: CultureObject/CultureObject.class.php:199
+msgid "Object updated."
+msgstr "Object updated."
+
+#: CultureObject/CultureObject.class.php:197
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: CultureObject/CultureObject.class.php:198
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: CultureObject/CultureObject.class.php:200
+msgid "Object restored to revision from %s"
+msgstr "Object restored to revision from %s"
+
+#: CultureObject/CultureObject.class.php:201
+msgid "Object published."
+msgstr "Object published."
+
+#: CultureObject/CultureObject.class.php:202
+msgid "Object saved."
+msgstr "Object saved."
+
+#: CultureObject/CultureObject.class.php:203
+msgid "Object submitted."
+msgstr "Object submitted."
+
+#: CultureObject/CultureObject.class.php:203
+#: CultureObject/CultureObject.class.php:204
+#: CultureObject/CultureObject.class.php:205
+msgid "Preview object"
+msgstr "Preview object"
+
+#: CultureObject/CultureObject.class.php:204
+msgid "Object scheduled for"
+msgstr "Object scheduled for"
+
+#: CultureObject/CultureObject.class.php:204
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: CultureObject/CultureObject.class.php:205
+msgid "Object draft updated."
+msgstr "Object draft updated."
+
+#: CultureObject/Exception/Exception.class.php:12
+msgid "This functionality is not yet implemented"
+msgstr "This functionality is not yet implemented"
+
+#: CultureObject/Settings.class.php:22 CultureObject/Settings.class.php:77
+msgid "Main Settings"
+msgstr "Main Settings"
+
+#: CultureObject/Settings.class.php:28
+msgid "Sync Provider"
+msgstr "Sync Provider"
+
+#: CultureObject/Settings.class.php:30
+msgid "Sync Key"
+msgstr "Sync Key"
+
+#: CultureObject/Settings.class.php:32
+msgid "Import Images"
+msgstr "Import Images"
+
+#. Translators: %s: The name of the provider developer
+#: CultureObject/Settings.class.php:47
+msgid "The activated provider plugin claims to support remappable fields, but doesn't provide the list of remappable fields. This should never happen in a production environment. Please contact the provider developer, %s. To stop this breaking your site, the provider has been disabled."
+msgstr "The activated provider plugin claims to support remappable fields, but doesn't provide the list of remappable fields. This should never happen in a production environment. Please contact the provider developer, %s. To stop this breaking your site, the provider has been disabled."
+
+#: CultureObject/Settings.class.php:76 views/settings.php:11
+msgid "Culture Object Settings"
+msgstr "Culture Object Settings"
+
+#: CultureObject/Settings.class.php:79 providers/AdLib/AdLib.class.php:35
+#: providers/CSV2/CSV2.class.php:68
+#: providers/CollectionSpace/CollectionSpace.class.php:116
+#: providers/CultureGrid/CultureGrid.class.php:19
+#: providers/Emu/Emu.class.php:35 providers/RAMM/RAMM.class.php:19
+#: providers/SWCE/SWCE.class.php:20
+msgid "Provider Settings"
+msgstr "Provider Settings"
+
+#: CultureObject/Settings.class.php:132
+msgid "These settings relate to the overall plugin and how it works."
+msgstr "These settings relate to the overall plugin and how it works."
+
+#: CultureObject/Settings.class.php:136
+msgid "Your plugin provider supports remappable fields. You can override the default display name for each field imported."
+msgstr "Your plugin provider supports remappable fields. You can override the default display name for each field imported."
+
+#: CultureObject/Settings.class.php:138
+msgid "Your plugin provider supports remappable fields, but your theme does not declare support. If you are a theme developer, see the CultureObject documentation for more details."
+msgstr "Your plugin provider supports remappable fields, but your theme does not declare support. If you are a theme developer, see the CultureObject documentation for more details."
+
+#: CultureObject/Settings.class.php:165
+msgid "This key forms part of the sync URL for a little bit more security."
+msgstr "This key forms part of the sync URL for a little bit more security."
+
+#: CultureObject/Settings.class.php:178
+msgid "Some providers support importing images into the WordPress Media Gallery.<br />Tick this box to request the provider does this."
+msgstr "Some providers support importing images into the WordPress Media Gallery.<br />Tick this box to request the provider does this."
+
+#: providers/AdLib/AdLib.class.php:24 providers/CSV2/CSV2.class.php:47
+#: providers/CSV2/CSV2.class.php:54 providers/Emu/Emu.class.php:24
+msgid "Security Violation."
+msgstr "Security Violation."
+
+#. Translators: 1: Provider Plugin Version 2: Provider Name 3: Provider
+#. Developer
+#: providers/AdLib/AdLib.class.php:40 providers/CSV2/CSV2.class.php:73
+#: providers/CollectionSpace/CollectionSpace.class.php:147
+#: providers/CultureGrid/CultureGrid.class.php:31
+#: providers/Emu/Emu.class.php:40 providers/RAMM/RAMM.class.php:31
+#: providers/SWCE/SWCE.class.php:35
+msgid "You're currently using version %1$s of the %2$s sync provider by %3$s."
+msgstr "You're currently using version %1$s of the %2$s sync provider by %3$s."
+
+#: providers/AdLib/AdLib.class.php:49
+msgid "Your AdLib import was successful."
+msgstr "Your AdLib import was successful."
+
+#: providers/AdLib/AdLib.class.php:76
+msgid "You need to upload an xml export file from AdLib in order to import."
+msgstr "You need to upload an XML export file from AdLib in order to import."
+
+#: providers/AdLib/AdLib.class.php:81
+msgid "Import AdLib Dump"
+msgstr "Import AdLib Dump"
+
+#: providers/AdLib/AdLib.class.php:85 providers/CSV2/CSV2.class.php:288
+#: providers/Emu/Emu.class.php:89
+msgid "Importing... This may take some time..."
+msgstr "Importing... This may take some time..."
+
+#. Translators: %s: The numeric error code PHP reported for an upload failure
+#: providers/AdLib/AdLib.class.php:111 providers/CSV2/CSV2.class.php:324
+#: providers/Emu/Emu.class.php:115
+msgid "Unable to import. PHP reported an error code: %s"
+msgstr "Unable to import. PHP reported an error code: %s"
+
+#: providers/AdLib/AdLib.class.php:118 providers/Emu/Emu.class.php:122
+msgid "Unable to import: File upload corrupt"
+msgstr "Unable to import: File upload corrupt"
+
+#: providers/AdLib/AdLib.class.php:133
+msgid "Unable to import. This file appears to be incompatible."
+msgstr "Unable to import. This file appears to be incompatible."
+
+#: providers/AdLib/AdLib.class.php:146 providers/CSV2/CSV2.class.php:264
+#: providers/CultureGrid/CultureGrid.class.php:105
+#: providers/Emu/Emu.class.php:142 providers/RAMM/RAMM.class.php:93
+#: providers/SWCE/SWCE.class.php:210
+msgid "Created object"
+msgstr "Created object"
+
+#: providers/AdLib/AdLib.class.php:150 providers/CSV2/CSV2.class.php:268
+#: providers/CultureGrid/CultureGrid.class.php:108
+#: providers/Emu/Emu.class.php:146 providers/RAMM/RAMM.class.php:96
+#: providers/SWCE/SWCE.class.php:213
+msgid "Updated object"
+msgstr "Updated object"
+
+#. Translators: 1: The name/type of import - usually the provider name. 2: The
+#. number of created objects. 3: The number of updated objects. 4: The number
+#. of deleted objects. 5: The number of seconds the whole process took to
+#. complete
+#: providers/AdLib/AdLib.class.php:164
+#: providers/CollectionSpace/CollectionSpace.class.php:332
+#: providers/Emu/Emu.class.php:160
+msgid "%1$s import completed with %2$d objects created, %3$d updated and %4$d deleted in %5$d seconds."
+msgstr "%1$s import completed with %2$d objects created, %3$d updated and %4$d deleted in %5$d seconds."
+
+#. Translators: 1: A WordPress Post ID 2: The type of file or the provider name
+#. (CSV, AdLib, etc)
+#: providers/AdLib/AdLib.class.php:197 providers/CSV2/CSV2.class.php:459
+#: providers/CollectionSpace/CollectionSpace.class.php:669
+#: providers/CultureGrid/CultureGrid.class.php:140
+#: providers/Emu/Emu.class.php:192 providers/RAMM/RAMM.class.php:128
+#: providers/SWCE/SWCE.class.php:250
+msgid "Removed Post ID %1$d as it is no longer in the exported list of objects from %2$s"
+msgstr "Removed Post ID %1$d as it is no longer in the exported list of objects from %2$s"
+
+#: providers/AdLib/AdLib.class.php:273 providers/CSV2/CSV2.class.php:431
+#: providers/CollectionSpace/CollectionSpace.class.php:735
+#: providers/CultureGrid/CultureGrid.class.php:196
+#: providers/Emu/Emu.class.php:260 providers/RAMM/RAMM.class.php:197
+#: providers/SWCE/SWCE.class.php:322
+msgid "Called existing_object_id for an object that doesn't exist. This is likely a bug in your provider plugin, but because it is probably unsafe to continue the import, it has been aborted."
+msgstr "Called existing_object_id for an object that doesn't exist. This is likely a bug in your provider plugin, but because it is probably unsafe to continue the import, it has been aborted."
+
+#: providers/CSV2/CSV2.class.php:88
+msgid "An error occurred when trying to parse the CSV."
+msgstr "An error occurred when trying to parse the CSV."
+
+#. Translators: 1: CSV File Name 2: Number of columns in the CSV 3: Numer of
+#. rows in the CSV
+#: providers/CSV2/CSV2.class.php:98
+msgid "Your uploaded CSV \"%1$s\" contains %2$d columns and %3$d rows."
+msgstr "Your uploaded CSV \"%1$s\" contains %2$d columns and %3$d rows."
+
+#: providers/CSV2/CSV2.class.php:104
+msgid "Remove uploaded CSV?"
+msgstr "Remove uploaded CSV?"
+
+#: providers/CSV2/CSV2.class.php:108
+msgid "To begin the import, click the button below."
+msgstr "To begin the import, click the button below."
+
+#: providers/CSV2/CSV2.class.php:115
+msgid "Select a field to use as the object ID"
+msgstr "Select a field to use as the object ID"
+
+#: providers/CSV2/CSV2.class.php:121
+msgid "Select the column that contains the unique ID for the objects in your dataset"
+msgstr "Select the column that contains the unique ID for the objects in your dataset"
+
+#: providers/CSV2/CSV2.class.php:129
+msgid "Select a field to use as the object title"
+msgstr "Select a field to use as the object title"
+
+#: providers/CSV2/CSV2.class.php:135
+msgid "Select the column that contains the title for the objects in your dataset"
+msgstr "Select the column that contains the title for the objects in your dataset"
+
+#: providers/CSV2/CSV2.class.php:142
+msgid "Delete existing objects not in this import?"
+msgstr "Delete existing objects not in this import?"
+
+#: providers/CSV2/CSV2.class.php:147
+msgid "Process Import"
+msgstr "Process Import"
+
+#: providers/CSV2/CSV2.class.php:179 providers/CSV2/CSV2.class.php:195
+msgid "Invalid AJAX import request"
+msgstr "Invalid AJAX import request"
+
+#: providers/CSV2/CSV2.class.php:226
+msgid "Attempted to import without a file uploaded."
+msgstr "Attempted to import without a file uploaded."
+
+#: providers/CSV2/CSV2.class.php:287
+msgid "Uploading... This may take some time..."
+msgstr "Uploading... This may take some time..."
+
+#: providers/CSV2/CSV2.class.php:289
+msgid "Imported"
+msgstr "Imported"
+
+#: providers/CSV2/CSV2.class.php:290
+msgid "objects"
+msgstr "objects"
+
+#: providers/CSV2/CSV2.class.php:291
+msgid "objects imported"
+msgstr "objects imported"
+
+#: providers/CSV2/CSV2.class.php:292
+msgid "objects deleted"
+msgstr "objects deleted"
+
+#: providers/CSV2/CSV2.class.php:293
+msgid "Import complete."
+msgstr "Import complete."
+
+#: providers/CSV2/CSV2.class.php:294
+msgid "Performing cleanup, please wait... This can take a long time if you have deleted a lot of objects."
+msgstr "Performing cleanup, please wait... This can take a long time if you have deleted a lot of objects."
+
+#: providers/CSV2/CSV2.class.php:300
+msgid "Select a CSV to upload"
+msgstr "Select a CSV to upload"
+
+#: providers/CSV2/CSV2.class.php:307
+msgid "Upload CSV File"
+msgstr "Upload CSV File"
+
+#: providers/CSV2/CSV2.class.php:331
+msgid "Unable to import. You didn't upload a CSV file."
+msgstr "Unable to import. You didn't upload a CSV file."
+
+#: providers/CSV2/CSV2.class.php:347
+msgid "Unable to import. Could not write file to uploads folder."
+msgstr "Unable to import. Could not write file to uploads folder."
+
+#: providers/CSV2/CSV2.class.php:475
+msgid "Only AJAX sync is supported for this provider."
+msgstr "Only AJAX sync is supported for this provider."
+
+#: providers/CollectionSpace/CollectionSpace.class.php:64
+#: providers/CollectionSpace/CollectionSpace.class.php:74
+msgid "People"
+msgstr "People"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:65
+msgid "Person"
+msgstr "Person"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:66
+msgid "Search People"
+msgstr "Search People"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:67
+msgid "All People"
+msgstr "All People"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:68
+msgid "Parent Person"
+msgstr "Parent Person"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:69
+msgid "Parent Person:"
+msgstr "Parent Person:"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:70
+msgid "Edit Person"
+msgstr "Edit Person"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:71
+msgid "Update Person"
+msgstr "Update Person"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:72
+msgid "Add New Person"
+msgstr "Add New Person"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:73
+msgid "New Person Name"
+msgstr "New Person Name"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:90
+#: providers/CollectionSpace/CollectionSpace.class.php:100
+msgid "Organizations"
+msgstr "Organisations"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:91
+msgid "Organization"
+msgstr "Organisation"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:92
+msgid "Search Organizations"
+msgstr "Search Organisations"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:93
+msgid "All Organizations"
+msgstr "All Organisations"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:94
+msgid "Parent Organization"
+msgstr "Parent Organisation"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:95
+msgid "Parent Organization:"
+msgstr "Parent Organisation:"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:96
+msgid "Edit Organization"
+msgstr "Edit Organisation"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:97
+msgid "Update Organization"
+msgstr "Update Organisation"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:98
+msgid "Add New Organization"
+msgstr "Add New Organisation"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:99
+msgid "New Organization Name"
+msgstr "New Organisation Name"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:119
+msgid "CollectionSpace Host URI"
+msgstr "CollectionSpace Host URI"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:122
+msgid "CollectionSpace Username"
+msgstr "CollectionSpace Username"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:125
+msgid "CollectionSpace Password"
+msgstr "CollectionSpace Password"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:166
+msgid "There are %d objects currently available to sync from CollectionSpace."
+msgstr "There are %d objects currently available to sync from CollectionSpace."
+
+#: providers/CollectionSpace/CollectionSpace.class.php:172
+#: providers/CultureGrid/CultureGrid.class.php:51
+msgid "Based on this number, you should expect a sync to take approximately %d minutes to complete."
+msgstr "Based on this number, you should expect a sync to take approximately %d minutes to complete."
+
+#: providers/CollectionSpace/CollectionSpace.class.php:176
+#: providers/CultureGrid/CultureGrid.class.php:55
+msgid "This number can vary significantly on the speed on your network, server, and database."
+msgstr "This number can vary significantly on the speed on your network, server, and database."
+
+#: providers/CollectionSpace/CollectionSpace.class.php:179
+msgid "We couldn't connect to CollectionSpace. Please check the details below and try again."
+msgstr "We couldn't connect to CollectionSpace. Please check the details below and try again."
+
+#: providers/CollectionSpace/CollectionSpace.class.php:218
+#: providers/CollectionSpace/CollectionSpace.class.php:353
+#: providers/CollectionSpace/CollectionSpace.class.php:434
+msgid "Host, Username or Password is not defined"
+msgstr "Host, Username or Password is not defined"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:221
+msgid "Imported People Taxonomies"
+msgstr "Imported People Taxonomies"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:223
+msgid "Imported Organization Taxonomies"
+msgstr "Imported Organisation Taxonomies"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:247
+msgid "Created initial object: %s"
+msgstr "Created initial object: %s"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:253
+msgid "Updated initial object: %s"
+msgstr "Updated initial object: %s"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:300
+msgid "Saved image for object %d"
+msgstr "Saved image for object %d"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:312
+msgid "Completed initial detail import for object %d"
+msgstr "Completed initial detail import for object %d"
+
+#: providers/CollectionSpace/CollectionSpace.class.php:316
+msgid "Updated details for object %d"
+msgstr "Updated details for object %d"
+
+#: providers/CultureGrid/CultureGrid.class.php:23
+msgid "CultureGrid Search Authority"
+msgstr "CultureGrid Search Authority"
+
+#: providers/CultureGrid/CultureGrid.class.php:46
+msgid "There are %d objects currently available to sync from CultureGrid based on your current authority."
+msgstr "There are %d objects currently available to sync from CultureGrid based on your current authority."
+
+#: providers/CultureGrid/CultureGrid.class.php:57
+msgid "CultureGrid sync only supports 100,000 objects maximum for the sake of performance. Only the first 100,000 objects will sync."
+msgstr "CultureGrid sync only supports 100,000 objects maximum for the sake of performance. Only the first 100,000 objects will sync."
+
+#: providers/CultureGrid/CultureGrid.class.php:69
+#: providers/RAMM/RAMM.class.php:53 providers/SWCE/SWCE.class.php:84
+msgid "%s returned an invalid JSON response"
+msgstr "%s returned an invalid JSON response"
+
+#: providers/CultureGrid/CultureGrid.class.php:72
+#: providers/RAMM/RAMM.class.php:56 providers/SWCE/SWCE.class.php:87
+msgid "%s returned an invalid response: "
+msgstr "%s returned an invalid response: "
+
+#: providers/CultureGrid/CultureGrid.class.php:90
+msgid "You haven't yet configured a search authority in the Culture Object Sync settings"
+msgstr "You haven't yet configured a search authority in the Culture Object Sync settings"
+
+#: providers/CultureGrid/CultureGrid.class.php:117
+#: providers/RAMM/RAMM.class.php:105 providers/SWCE/SWCE.class.php:225
+msgid "Sync Complete in %d seconds"
+msgstr "Sync Complete in %d seconds"
+
+#: providers/Emu/Emu.class.php:50
+msgid "Your CSV import was successful"
+msgstr "Your CSV import was successful"
+
+#: providers/Emu/Emu.class.php:54
+msgid "Show Log"
+msgstr "Show Log"
+
+#: providers/Emu/Emu.class.php:80
+msgid "You need to upload the JSON export file from emu in order to import."
+msgstr "You need to upload the JSON export file from EMu in order to import."
+
+#: providers/RAMM/RAMM.class.php:23
+msgid "RAMM Feed URL"
+msgstr "RAMM Feed URL"
+
+#: providers/RAMM/RAMM.class.php:41
+msgid "RAMM's JSON data takes a while to generate, so we're unable to show a preview here, and import could take a very long time."
+msgstr "RAMM's JSON data takes a while to generate, so we're unable to show a preview here, and import could take a very long time."
+
+#: providers/RAMM/RAMM.class.php:74
+msgid "You haven't yet configured a URL in the Culture Object Sync settings"
+msgstr "You haven't yet configured a URL in the Culture Object Sync settings"
+
+#: providers/RAMM/RAMM.class.php:83 providers/SWCE/SWCE.class.php:187
+msgid "Importing %d objects."
+msgstr "Importing %d objects."
+
+#: providers/SWCE/SWCE.class.php:25
+msgid "SWCE Site ID"
+msgstr "SWCE Site ID"
+
+#: providers/SWCE/SWCE.class.php:27
+msgid "SWCE API Token"
+msgstr "SWCE API Token"
+
+#: providers/SWCE/SWCE.class.php:45
+msgid "SWCE's JSON data takes a while to generate, so we're unable to show a preview here, and import could take a very long time."
+msgstr "SWCE's JSON data takes a while to generate, so we're unable to show a preview here, and import could take a very long time."
+
+#: providers/SWCE/SWCE.class.php:52
+msgctxt "taxonomy general name"
+msgid "Object Categories"
+msgstr "Object Categories"
+
+#: providers/SWCE/SWCE.class.php:53
+msgctxt "taxonomy singular name"
+msgid "Object Category"
+msgstr "Object Category"
+
+#: providers/SWCE/SWCE.class.php:54
+msgid "Search Object Categories"
+msgstr "Search Object Categories"
+
+#: providers/SWCE/SWCE.class.php:55
+msgid "All Object Categories"
+msgstr "All Object Categories"
+
+#: providers/SWCE/SWCE.class.php:56
+msgid "Parent Object Category"
+msgstr "Parent Object Category"
+
+#: providers/SWCE/SWCE.class.php:57
+msgid "Parent Object Category:"
+msgstr "Parent Object Category:"
+
+#: providers/SWCE/SWCE.class.php:58
+msgid "Edit Object Category"
+msgstr "Edit Object Category"
+
+#: providers/SWCE/SWCE.class.php:59
+msgid "Update Object Category"
+msgstr "Update Object Category"
+
+#: providers/SWCE/SWCE.class.php:60
+msgid "Add New Object Category"
+msgstr "Add New Object Category"
+
+#: providers/SWCE/SWCE.class.php:61
+msgid "New Object Category Name"
+msgstr "New Object Category Name"
+
+#: providers/SWCE/SWCE.class.php:62
+msgid "Object Category"
+msgstr "Object Category"
+
+#: providers/SWCE/SWCE.class.php:170 providers/SWCE/SWCE.class.php:175
+msgid "You haven't yet configured your API token in the Culture Object Sync settings"
+msgstr "You haven't yet configured your API token in the Culture Object Sync settings"
+
+#. Translators: 1: The current page 2: The last page
+#: providers/SWCE/SWCE.class.php:202
+msgid "Loading Page %1$d of %2$d"
+msgstr "Loading Page %1$d of %2$d"
+
+#: views/provider.php:11
+msgid "Culture Object Provider Settings"
+msgstr "Culture Object Provider Settings"
+
+#. Translators: %s: Version Number
+#. Translators: 1 Version Number
+#: views/provider.php:11 views/settings.php:11
+msgid "Version %s"
+msgstr "Version %s"
+
+#: views/provider.php:36
+msgid "Perform Sync"
+msgstr "Perform Sync"
+
+#: views/settings.php:26
+msgid "Your current provider, %s, doesn't support automated import by cron. You do not need to create a cronjob for this provider."
+msgstr "Your current provider, %s, doesn't support automated import by cron. You do not need to create a cronjob for this provider."
+
+#: views/settings.php:30
+msgid "Use the provider settings page to process an import."
+msgstr "Use the provider settings page to process an import."
+
+#. Plugin Name of the plugin/theme
+msgid "Culture Object"
+msgstr "Culture Object"
+
+#. Plugin URI of the plugin/theme
+msgid "http://cultureobject.co.uk"
+msgstr "http://cultureobject.co.uk"
+
+#. Description of the plugin/theme
+msgid "A framework as a plugin to enable sync of culture objects into WordPress."
+msgstr "A framework as a plugin to enable sync of culture objects into WordPress."
+
+#. Author of the plugin/theme
+msgid "Liam Gladdy / Thirty8 Digital"
+msgstr "Liam Gladdy / Thirty8 Digital"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/lgladdy"
+msgstr "https://github.com/lgladdy"

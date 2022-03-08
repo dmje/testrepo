@@ -1,0 +1,172 @@
+#primary-nav{
+	clear: both;
+	margin: 9px 0 0;
+	text-align: right;
+}
+
+#primary-nav.menu-shift{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 1.2rem 0 0;
+	text-align: left;
+}
+
+ul.nav-menu,
+.nav-menu > ul ,
+.nav-menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu li{
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+
+.nav-menu li ul li{
+	margin: 0;
+}
+
+.nav-menu li a{
+	transition: none;
+    display: block;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width : 768px){
+	.nav-menu li a{
+		padding: 1.2rem 1.8rem;
+    }
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+	background: $primary_link;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	border-top: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 44px;
+	z-index: 99999;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	border-left: 0;
+	left: 100%;
+	top: 0;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	text-align: left;
+	background: $primary_link;
+	color: #fff;
+	margin: 0;
+	width: 200px;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus{
+	background: $primary_text;
+	color: #fff;
+	cursor: pointer;
+}
+
+ul.nav-menu li:hover > ul,
+.nav-menu ul li:hover > ul,
+ul.nav-menu .focus > ul,
+.nav-menu .focus > ul {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+ul.nav-menu li.menu-item-has-children > a:after{
+	display: inline-block;
+	position: relative;
+	left: 6px;
+	content: "\f107";
+	text-decoration: none;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: $primary_link;
+}
+
+.nav-menu li ul li.menu-item-has-children > a:after,
+.nav-menu li ul li.menu-item-has-children > a:after,
+.nav-menu li ul li.menu-item-has-children > a:after{
+	content: "\f105";
+	left: 9px;
+	color: #fff;
+}
+
+.nav-menu li.menu-item-has-children:hover > a:after,
+.nav-menu li.menu-item-has-children:focus > a:after,
+.nav-menu li.menu-item-has-children:active > a:after{
+	color: #fff;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+
+}
+
+
+/* Breadcrumbs */
+
+#breadcrumb-wrap{
+	background: #fff;
+}
+
+#breadcrumb-inner{
+	padding-top: 2.4rem;
+	padding-bottom: 2.4rem;
+	line-height: 2.4rem;
+	font-size: 1.4rem;
+	color: $primary_text;
+}
+
+#breadcrumbs span i.divider{
+	position: relative;
+	top: 0;
+	margin: 0 4px 0 8px;
+	font-size: 14px;
+	color: $meta_text;
+}
+
+#breadcrumbs a{
+	color: #000;
+  	&:visited{
+  		color: #000;
+  	}
+  	&:hover, &:focus, &:active{
+  		color: $primary_link;
+  		outline: 0;
+  	}
+}

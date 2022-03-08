@@ -1,0 +1,126 @@
+img, video{ 
+	max-width: 100% !important; 
+	height: auto;
+}
+
+// http://codepen.io/jakob-e/pen/LEdWNB
+@mixin aspect-ratio($ratio-or-width, $height: null) {
+  $padding: if($height, percentage($height/$ratio-or-width), percentage(1/$ratio-or-width));
+  &:before { content:''; float: left; padding-bottom: $padding;  }
+  &:after  { content:''; display: table; clear: both;  } 
+}
+
+.full-width-featured-image{
+	 @include aspect-ratio(3.5,1);
+	 width: 100%;
+}
+
+/* #WordPress Images
+================================================== */
+
+.gallery .gallery-item img{
+	border:none !important;
+}
+
+.gallery dl{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.alignnone{
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter{
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright{
+	float: right;
+	margin: 5px 0 20px 20px;
+	
+}
+
+.alignleft{
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter{
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+a img.alignright{
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone{ 
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft{
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption{
+	max-width: 100%; /* Image does not overflow the content area */
+	text-align: left;
+}
+
+.gallery .gallery-caption{
+	padding: 8px 10px 10px;
+	text-align: left;
+}
+
+.gallery .gallery-item dt a img{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.wp-caption.alignnone{ 
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft{ 
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright{
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img{
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 14px;
+	line-height: 2.4rem;
+	margin: 0 0 2.4rem;
+	padding: 1.2rem 1.8rem;
+	background: $light_bg;
+}
+
+
+/* #Native Audio 
+================================================== */
+
+.wp-audio-player{
+}

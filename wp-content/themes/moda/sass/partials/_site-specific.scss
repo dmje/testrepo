@@ -1,0 +1,224 @@
+/* Accessibility for Font Awesome */
+
+span.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+/* Layout */
+
+#main-content{
+	padding-top: 4.8rem;
+	padding-bottom: 4.8rem;
+	background: $light_bg;
+}
+
+.page-content-inner{
+	float: left;
+	width: 100%;
+	padding: 0 4.8rem;
+	background: #fff;
+}
+
+.index-listing .page-content-inner{
+	padding: 3.6rem 4.8rem 0;
+}
+
+.page-content-inner.page-content-inner-first{
+	padding: 3.6rem 4.8rem 0 4.8rem;
+}
+
+.page-content-inner.page-content-inner-last{
+	padding-bottom: 0;
+}
+
+.page-featured-image{
+	background: #fff;
+}
+
+.row-top-bordered:before{
+  content: "";
+  display: block;
+  border-top: 2px solid $border_color;
+  margin: 0;
+  padding-top: 3.4rem;
+}
+
+
+/* Frontpage */
+
+.montage-grid{
+	display: block;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.montage-grid .montage-object{
+	float: left;
+	width: 25%;
+	background: $moda_red;
+}
+
+.montage-grid .montage-object .montage-object-text{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0 3.6rem;
+	line-height: 1.2;
+	font-size: 2.8rem;
+	background: $moda_red;
+	color: #fff;
+}
+
+.montage-grid .montage-object .montage-object-text p{
+	clear: both;
+	margin: 0;
+}
+
+.montage-grid .montage-object .montage-object-text span.montage-text-divider{
+    display: inline-block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    margin-bottom: 1.2rem;
+    background: #fff;
+}
+
+.montage-object-link {
+	display: block;
+	position: relative;
+}
+
+.montage-object-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(204, 0, 51, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 1em;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.montage-object-link:hover .montage-object-inner {
+	opacity: 1;
+}
+
+.montage-object-caption {
+	color: #fff;
+	font-size: 18px;
+}
+
+@media only screen and (max-width : 720px){
+
+	.montage-grid .montage-object{
+		width: 50%;
+	}
+	
+	.montage-grid .montage-object .montage-object-text{
+		padding: 3.6rem;
+	}
+}
+
+@media only screen and (max-width : 1024px){
+
+	.montage-grid .montage-object .montage-object-text{
+		font-size: 1.8rem;
+	}
+	
+}
+
+.front-intro-statement{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 4.8rem 0 7.2rem;
+	padding: 0 30%;
+	line-height: 1.5;
+	text-align: center;
+	font-family:"Dax W01 Medium";
+	font-size: 2.4rem;
+}
+
+@media only screen and (max-width : 1024px){
+
+	.front-intro-statement{
+		margin: 2.4rem 0 3.6rem;
+		padding: 0 15%;
+		font-size: 2rem;
+	}
+	
+}
+
+.front-intro-statement:before{
+    display: inline-block;
+    content: "";
+    width: 144px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+    background: $primary_text;	
+}
+
+.front-modular-wrap{
+	padding: 7.2rem 0 3.6rem;
+	background: $light_bg;
+}
+
+/* https://trello.com/c/C0iO7tLr/37-32-box-styling-is-a-bit-odd fixing an after the fact modular layout problem */
+
+body.page-template-default .modular-row.row{
+	clear: both;
+}
+
+body.page-template-default .modular-row.row section.repeater-featured.content-block:first-of-type{
+	margin-top: 3.6rem;
+}
+
+
+/* Events */
+
+body.post-type-archive-tribe_events .page-content-inner{
+	padding: 0.6rem 4.8rem;
+}
+
+body.single-tribe_events .page-content-inner.page-content-inner-first{
+	padding: 0 4.8rem;
+}
+
+form#tribe-bar-form{
+	height: auto;
+}
+
+h2.tribe-events-page-title{
+	text-align: left;
+}
+
+p.tribe-events-back{
+	float: left;
+	width: 100%;
+}
+
+p.tribe-events-back a{
+	float: left;
+	text-align: left;
+}
+
+#tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a{
+    background-color: $moda_red;
+}
+
+.tribe-events-tooltip h4{
+    color: $moda_red !important;
+}

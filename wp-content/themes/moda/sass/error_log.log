@@ -1,0 +1,13 @@
+10/18/17 9:48:10: style.scss - Undefined variable $moda_: line: 123
+11/07/17 12:16:08: style.scss - parse error: failed at `position; relative;` /app/public/wp-content/themes/moda/sass/partials/_archive.scss on line 90
+11/07/17 12:16:13: style.scss - parse error: failed at `position; relative;` /app/public/wp-content/themes/moda/sass/partials/_archive.scss on line 90
+11/07/17 3:35:19: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:35:22: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:35:53: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:35:56: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:36:09: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:38:40: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+11/07/17 3:39:05: style.scss - unclosed block: failed at `` /app/public/wp-content/themes/moda/sass/partials/_single.scss on line 71
+12/07/17 4:27:12: style.scss - parse error: failed at `widthL: 100^;` /app/public/wp-content/themes/moda/sass/partials/_typography.scss on line 212
+12/07/17 4:27:13: style.scss - parse error: failed at `widthL: 100^;` /app/public/wp-content/themes/moda/sass/partials/_typography.scss on line 212
+12/07/17 4:27:15: style.scss - parse error: failed at `widthL: 100^;` /app/public/wp-content/themes/moda/sass/partials/_typography.scss on line 212

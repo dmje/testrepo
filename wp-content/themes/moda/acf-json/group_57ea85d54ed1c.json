@@ -1,0 +1,72 @@
+{
+    "key": "group_57ea85d54ed1c",
+    "title": "Post Content Intro",
+    "fields": [
+        {
+            "key": "field_57ea85d55c79b",
+            "label": "Page Intro",
+            "name": "page_intro",
+            "type": "text",
+            "instructions": "This is an optional text area to feature a page introduction in larger text.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_57ea85d55c7b4",
+            "label": "Page Summary",
+            "name": "page_summary",
+            "type": "textarea",
+            "instructions": "Used as a teaser if the page is featured elsewhere on the site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "new_lines": "wpautop",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "custom_fields",
+        "revisions",
+        "author",
+        "format",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1493821369
+}

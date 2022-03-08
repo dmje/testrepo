@@ -1,0 +1,117 @@
+/* #Comments
+================================================== */
+
+#comments-list{
+}
+
+#comments-list ul#comments-agogo{
+	padding: 0;
+}
+
+h2.comment-header{
+	font-size: 2.1rem;
+	font-family: $sans_font;
+}
+
+#comments-list li.comment-item{
+	margin: 0 0 4rem;
+	padding: 0 0 3rem;
+	list-style: none;
+	border-bottom: 1px solid $border_color;
+}
+
+#comments-list li.comment-item ul li{
+	margin:0;
+	padding: 0;
+}
+
+#comments-list ul#comments-agogo li.comment-item:last-child{
+	border: none;	
+}
+
+#comments-list li.comment-item .comment-author-section{
+	font-size: 1.5rem;
+}
+
+#comments-list li.comment-item .avatar{
+	float: left;
+	margin-right: 2rem;
+	border-radius: 50%;
+}
+
+#comments-list li.comment-item .comment-author.vcard{
+}
+
+#comments-list li.comment-item .fn{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#comments-list li.comment-item .fn a{
+	text-decoration: none;
+}
+
+#comments-list li.comment-item .comment-content{
+	padding-left: 8rem;
+	font-size: 1.5rem;
+}
+
+#comments-list li.comment-item .comment-content p{
+	margin-bottom: 10px;
+}
+
+#comments-list li.comment-item .comment-meta{
+	margin-top: 5px;
+	font-size: 1.3rem;
+	color: $meta_text;
+}
+
+#comments-list li.comment-item ul.children{
+	margin: 2rem 0 0 8rem;
+	padding: 0;
+}
+
+#comments-list li.comment-item ul li{
+	border: 0;
+	overflow: auto;
+}
+
+#comments-list li.comment-item.bypostauthor{
+}
+
+#comments-list li.comment-item.bypostauthor .avatar{
+}
+
+#comments #respond{
+	padding: 0 0 4rem;
+}
+
+#comments #respond h2.comment-header{
+	margin-bottom: 0;	
+	padding: 2rem;
+	font-size: 2.1rem;
+	font-family: $sans_font;
+	background: $light_bg;
+}
+
+#comment-form-inner{
+	padding: 2rem 2rem 3rem;
+	background: #fafafa;
+}
+
+#form-allowed-tags{
+	font-size: 0.875em;
+}
+
+form#commentform label{
+	font-size: 1.6rem;
+}
+
+.button.comment-button{
+	margin-top: 2rem;
+}
+
+#comments p#login{
+	font-size: 1.6rem;
+}
